@@ -1,0 +1,2 @@
+gfortran -o Ciao Ciao.f -> Compilazione
+./Ciao -> execute 

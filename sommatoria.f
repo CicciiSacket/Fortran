@@ -4,7 +4,7 @@
 	WRITE(*,*) 'Quanti sono i termini della sommatoria'
 	READ(*,*) n
 	i=1
-10	WRITE(*,*)'x(',i,')'
+10	WRITE(*,*)'x(',i,')' 
 	READ(*,*) x(i)
 	i=i+1
 	IF(i.LE.n) GOTO	10
